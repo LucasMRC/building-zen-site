@@ -1,0 +1,145 @@
+
+@media screen and (min-width: 480px) {
+
+    *.mobile-only {
+        display: none;
+    }
+
+    *.desktop-only {
+        display: block;
+    }
+
+    body {
+        padding: 6.5rem 8.75rem 5rem;
+    }
+
+    div.hero-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    div.logo-container {
+        margin-bottom: 8rem;
+    }
+
+    svg.zenrise-logo {
+        transform: scale(1.1);
+        transform-origin: left top;
+    }
+
+    div.text-content {
+        width: 40rem;
+    }
+
+    div.center-to-screen {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    h4.content-paragraph-title {
+        font-size: 2rem;
+        margin: 0 0 2rem 0;
+        line-height: 2.5rem;
+        color: var(--clear-day);
+        font-weight: var(--bolder-font);
+    }
+
+    p.content-paragraph {
+        font-size: 1.5rem;
+        margin: 0 0 2rem 0;
+        line-height: 2.5rem;
+    }
+
+    p.content-paragraph span.anchor-positioner a {
+        height: 2rem;
+    }
+
+    p.content-paragraph:hover a.plain-text {
+        opacity: 0;
+    }
+
+    p.content-paragraph:hover a.gradient-text {
+        opacity: 1;
+    }
+
+    p.content-paragraph span.anchor-positioner span:nth-child(3) {
+        left: 3.5rem;
+    }
+
+    button.call-to-action {
+        position: absolute;
+        top: 7rem;
+        right: 8.75rem;
+        margin: 0;
+    }
+
+    main.main-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    span.underlined-text {
+        border-bottom: 1px solid var(--standart-white);
+    }
+
+    div.stick-to-the-bottom {
+        position: absolute;
+        bottom: 5.5rem;
+    }
+
+    div.menu-group ul,
+    div.menu-group ul li {
+        margin-bottom: 0;
+    }
+
+    p.menu-group-title {
+        margin-bottom: 1.5rem;
+    }
+
+    ul.menu-list {
+        padding-left: 1.5rem;
+        display: flex;
+        width: 38rem;
+        justify-content: space-between;
+    }
+
+    li.menu-list-item {
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+
+    div.sidebar-menu {
+        right: 8.75rem;
+    }
+
+    ul.sidebar-menu-list {
+        text-align: right;
+        padding-left: 0;
+    }
+
+    li {
+        margin-bottom: 2rem;
+    }
+
+    li.sidebar-menu-list-item:first-of-type {
+        margin-top: 0;
+    }
+
+    div.footer-legend-container {
+        right: 8.75rem;
+    }
+
+    p.footer-legend {
+        font-size: .75rem;
+        text-align: right;
+    }
+
+}
